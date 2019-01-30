@@ -5,8 +5,8 @@ def my_select(collection)
  while counter < collection.length
     if yield(collection[counter])
    array << yield(collection[counter])
-    counter +=1
   end
+     counter +=1
  end
   array
 end

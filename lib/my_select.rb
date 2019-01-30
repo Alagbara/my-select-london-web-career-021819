@@ -11,6 +11,4 @@ def my_select(collection)
   array
 end
 
-#my_select([1,2,3,4]) do |num|
-#  num.even?
-#end
+
